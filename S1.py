@@ -27,7 +27,7 @@ class B():
 
 c = B(7)
 c.prStr = 'hi' 
-print(obj.string)
-print(a,b)
-print('A: %s'%obj.string)
-print("B: %s"%c.prStr)
+print(obj.string) #Supun
+print(a,b) #1 2
+print('A: %s'%obj.string) #A: Supun
+print("B: %s"%c.prStr) #B: prStr is Private. Value is hi
