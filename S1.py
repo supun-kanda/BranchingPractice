@@ -8,7 +8,6 @@ b = 2
 
 obj = A(4,'Supun')
 
-
 class B():
 	def __init__(self, number):
 		self.number = number
