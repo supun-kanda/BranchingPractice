@@ -8,7 +8,7 @@ b = 2
 
 obj = A(4,'Supun')
 
-print(obj.string)
+print('A: %s'%obj.string)
 
 class B():
 	def __init__(self, number):
@@ -29,4 +29,4 @@ class B():
 c = B(7)
 c.prStr = 'hi' 
 print(a,b)
-print(c.prStr)
+print("B: %s"%c.prStr)
