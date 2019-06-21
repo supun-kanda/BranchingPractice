@@ -1,3 +1,5 @@
+import pytest
+
 from S1 import A, B
 
 def test_A():
@@ -11,6 +13,6 @@ def test_B():
 
     assert b.number == 1
 
-    b.string = 'a'
+    b.prStr = 'a'
 
-    assert b.string == 'a'
+    assert b.prStr == 'a'
