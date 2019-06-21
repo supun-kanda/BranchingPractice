@@ -16,3 +16,6 @@ def test_B():
     b.prStr = 'a'
 
     assert b.prStr == 'a'
+
+def test_X():
+    assert 2**2 == 4
