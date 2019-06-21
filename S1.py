@@ -25,7 +25,7 @@ class B():
 
 
 
-c = B(7)
+c = B(8)
 c.prStr = 'hi' 
 print(obj.string) #Supun
 print(a,b) #1 2
